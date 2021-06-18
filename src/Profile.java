@@ -39,7 +39,7 @@ public class Profile extends HttpServlet {
         if(session!=null){  
         String name=(String)session.getAttribute("name");  
           
-        out.print("Hello, "+name+" Welcome to Profile");  
+        out.println("Hello, "+name+" Donate to Tree Plantation");  
         }  
         else{  
             out.print("Please login first");  
